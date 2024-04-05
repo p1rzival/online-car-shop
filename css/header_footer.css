@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url();
+}
+
+@font-face {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/OpenSans_Condensed-Bold.ttf");
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body {
+    font-family: "opensans", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header>.container {
+    padding: 40px 20px;
+}
+
+header .burgerIcon {
+    width: 40px;
+    display: none;
+}
+
+header .container .menu a {
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #4b4b4e;
+    margin: 0 20px;
+}
+
+header .container .menu a:hover,
+header .container .menu a.active {
+    color: #dfa52b;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #ebb217;
+}
+
+header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #ebb217;
+    border-radius: 50px;
+}
+
+header form div input[type='text'] {
+    border: none;
+    margin-right: 10px;
+}
+
+header form div input[type='submit'] {
+    background: url("../images/icons8-magnifying-glass-94.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+header form div input[type='input']:hover {
+    cursor: pointer;
+}
+
+header .cart div p {
+    font-size: 0.938em;
+}
+
+header .cart div a {
+    font-size: 0.850em;
+    color: #ebb217;
+}
+
+
+footer {
+    background-color: #4b4b4e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container{
+    align-items: flex-start;
+}
+
+footer .left {
+    align-items: flex-start;
+}
+
+footer .left figure figcaption {
+    color: #f3f3f3;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 138px;
+}
+
+footer .left nav {
+    margin-left: 100px;
+}
+
+footer .left nav a {
+    display: block;
+    color: #ffff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 0.875em;
+}
+
+footer .left nav a:hover,
+footer .left nav a.active {
+    color: #dfa52b;
+}
+
+footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid #ffff;
+}
+
+footer .right form input[type='text'] {
+    padding: 8px 0;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+footer .right form input[type='submit'] {
+    width: 20px;
+    height: 20px;
+    background: url(../images/main/search.png) no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+footer .right > div {
+    text-align: center;
+    font-size: 14px;
+    color: #ffff;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+footer .right .box {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 16px 16px 0;
+    
+}
+
+footer .right .vk {
+    background: url('../images/main/icons8-vk-50.png') no-repeat;
+    background-size: cover;
+}
+
+
+footer .right .youtube {
+    background: url('../images/main/icons8-youtube-50.png') no-repeat;
+    background-size: cover;
+}
+
+footer .right .telega {
+    background: url('../images/main/icons8-telegram-50.png') no-repeat;
+    background-size: cover;
+}
+footer .copyright {
+    text-align: center;
+    color: #ffff;
+    font-size: 0.750em;
+    margin-top: 60px;
+}

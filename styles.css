@@ -1,0 +1,56 @@
+@font-face {
+    font-family: opensans;
+    font-weight: normal;
+    font-style: bold;
+    src: url("fonts/OpenSans_Condensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: bolder;
+    src: url("fonts/OpenSans_Condensed-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 900;
+    src: url("fonts/OpenSans_Condensed-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 500;
+    src: url("fonts/OpenSans_Condensed-ExtraBoldItalic.ttf");
+}
+
+
+
+body {
+    font-family: "opensans", Arial, Helvetica, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+}
+
+a {
+    display: inline;
+    text-decoration: normal;
+    font-family: opensans;
+    font-weight: 300;
+}
+
+.block {
+    background: url("images/keyart-ue-en@2x-cd66fd0d.jpg");
+    background-size: 50% 50%;
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    display: inline-block;
+}
